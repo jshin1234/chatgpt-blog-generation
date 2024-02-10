@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 
 def generate_text(prompt):
     # 모델 엔진 선택
-    model_engine = "text-davinci-003"
+    model_engine = "gpt-3.5-turbo-0125"
 
     # 맥스 토큰
     max_tokens = 3500
